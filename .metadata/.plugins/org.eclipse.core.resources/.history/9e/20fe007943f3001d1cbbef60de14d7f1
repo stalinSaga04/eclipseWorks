@@ -1,0 +1,11 @@
+package org.javaArray;
+
+import java.util.Scanner;
+
+public class CalculatorDemo {
+	public static void main(String[] args) {
+		System.out.println("enter any two numbers for calculate functions of addition,subraction,multiplication and division");
+		Scanner sc = new Scanner(System.in);
+		
+	}
+}

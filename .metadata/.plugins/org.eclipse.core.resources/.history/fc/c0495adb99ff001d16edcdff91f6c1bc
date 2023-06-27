@@ -1,0 +1,13 @@
+package org.string;
+
+public class StringDemo2 {
+	public static void main(String[] args) {
+		String name = "amalraj vijayakumar";
+		for (int i = 0; i < name.length(); i++) {
+			int letter = name.charAt(i);
+			System.out.println(letter);
+		}
+		
+	}
+
+}

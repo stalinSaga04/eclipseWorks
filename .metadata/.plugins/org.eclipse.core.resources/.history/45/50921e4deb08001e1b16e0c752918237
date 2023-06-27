@@ -1,0 +1,48 @@
+package org.learning;
+
+import java.util.Scanner;
+
+public class ArunKumarPandiChoco {
+	public static void main(String[] args) {
+		ArunKumarPandiChoco ap = new ArunKumarPandiChoco();
+		boolean res=true;
+		
+		//		int totalChoco= 7;
+//        int totalWrap= totalChoco;
+//
+//        while (totalWrap >= 3)
+//        {
+//            int freeChoco = totalWrap / 3;
+//            totalChoco = freeChoco + totalChoco;
+//            totalWrap= totalWrap % 3;
+//            totalWrap= totalWrap + freeChoco;
+//        }
+//        System.out.println(totalChoco);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter first line and secondline");
+		String num = sc.nextLine();
+//		String string = sc.nextLine();
+		
+		System.out.println(parseInt);
+		if (num.contains(string)) {
+			res=false;
+		}
+		if (!res) {
+			int parseInt = Integer.parseInt(num);
+			System.out.println(parseInt*2);
+		}else {
+			System.out.println();
+		}
+		System.out.println(res);
+		for (int i = 0; i < num.length(); i++) {
+			if (Character.isDigit(i)) {
+				System.out.println(i+"");
+			}
+		}
+		
+		
+		
+	
+	}
+
+}

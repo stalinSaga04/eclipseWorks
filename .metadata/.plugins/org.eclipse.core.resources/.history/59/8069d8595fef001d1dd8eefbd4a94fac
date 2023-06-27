@@ -1,0 +1,35 @@
+package org.javaArray;
+
+import java.util.Scanner;
+
+public class BreakTheNumAndCompare {
+	public static void main(String[] args) {
+		BreakTheNumAndCompare br = new BreakTheNumAndCompare();
+		br.find_the_marks();
+		
+	}
+
+	private void find_the_marks() {
+		// TODO Auto-generated method stub
+		int i=0,rem1,rem2,temp;
+		int[] arr = new int[5];
+		String[] sub = {"tamil","english","maths","science","social science"};
+		//Scanner sc = new Scanner(System.in);
+
+		
+		
+		//while (i<arr.length) {
+			//System.out.println("enter the double digit number is: ");
+			arr[i]=91;//sc.nextInt();
+			temp = arr[i];
+			rem1=temp%10;
+			rem2=rem1/10;
+			if (rem1<rem2) {
+				System.out.println(temp);
+			}
+		//}
+		//i++;
+		
+	}
+
+}

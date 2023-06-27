@@ -1,0 +1,18 @@
+package org.learnings;
+
+import java.util.HashMap;
+
+public class MapDemo {
+	public static void main(String[] args) {
+		
+	
+	HashMap hm = new HashMap(); 
+    hm.put("Idli", 20);
+    hm.put("Dosai", 30);
+    hm.put("Poori", 30);
+    hm.put("Pongal", 40);
+    hm.put("Dosai", 60);
+    
+    System.out.println(hm);
+	}
+}

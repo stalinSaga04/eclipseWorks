@@ -1,0 +1,38 @@
+package org.loopExcercise;
+
+import java.util.Scanner;
+
+public class CardValidation {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter how manmy digits your card contains");
+		int digit=sc.nextInt();	
+		card_number(digit);
+
+		isvalidCard();
+		
+	}
+
+	private static void card_number(int digit) {
+	
+		// TODO Auto-generated method stub
+		int i = 0;
+		final int[] card_num = new int[digit];
+		Scanner sc = new Scanner(System.in);
+		while (digit<i) {
+			card_num[i]=sc.nextInt();
+			i++;
+		}
+		for (int j = 0; j < card_num.length; j++) {
+			System.out.println(card_num[j]);
+		}
+		
+	}
+
+	private static void isvalidCard() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

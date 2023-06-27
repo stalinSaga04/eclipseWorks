@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author stalin
+ *
+ */
+module JavaE {
+}

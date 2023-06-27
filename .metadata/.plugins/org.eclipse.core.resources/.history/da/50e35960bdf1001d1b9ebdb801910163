@@ -1,0 +1,36 @@
+package org.javaLoop;
+
+import java.util.Iterator;
+
+public class StringDemo {
+	public static void main(String[] args) {
+		StringDemo strdemo= new StringDemo();
+		//strdemo.reverse(strdemo);
+		
+		String s = "#hello*";
+		int len = s.length();
+		char[] c_array = s.toCharArray() ;
+		char[] temp = new char[len];
+		
+		int i=0,x=0;
+		while (i<c_array.length-1) {
+			if (c_array[i]>='a'&&c_array[i]>='z'|| c_array[i]>='A'&& c_array[i]<='Z') {
+				temp[x]  = c_array[i];
+			}
+			i++;
+			System.out.println(temp);
+		}
+		/*
+		 * private void reverse(String s) { // TODO Auto-generated method stub
+		 * 
+		 * }
+		 */
+		/*
+		 * for (int i = s.length()-1; i >0; i++) { if (i==("-+^*") && i==("-+^*")) {
+		 * System.out.println(len-len-1+i); }
+		 */
+			
+		//}
+	}
+
+}

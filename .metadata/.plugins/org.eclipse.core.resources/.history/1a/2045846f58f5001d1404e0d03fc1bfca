@@ -1,0 +1,9 @@
+package org.javaArray;
+
+public class ArrayRightShift {
+public static void main(String[] args) {
+	ArrayRightShift r_shift = new ArrayRightShift();
+	
+	
+}
+}

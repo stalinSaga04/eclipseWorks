@@ -1,0 +1,26 @@
+package org.javaArray;
+
+import java.util.Iterator;
+
+public class ArrayLeftShift {
+	public static void main(String[] args) {
+		int[] ar = { 80, 90, 30, 40, 32 };
+		System.out.println("before 1 left shift");
+		for (int i = 0; i < ar.length; i++) {
+			System.out.print(ar[i]+" ");
+			int first = ar[0];
+			ar[ar.length - 1] = first;
+		}
+		System.out.println("\nafter 1 right shift");
+		for (int i = 0; i < 1; i++) {
+			
+			for (int j = ar.length-1; j >0; j--) {
+				ar[j] = ar[j - 1];
+			}
+			//ar[ar.length-1]=ar[0];
+		}
+		for (int i = 0; i < ar.length; i++) {
+			System.out.print(ar[i]+" ");
+		}
+	}
+}

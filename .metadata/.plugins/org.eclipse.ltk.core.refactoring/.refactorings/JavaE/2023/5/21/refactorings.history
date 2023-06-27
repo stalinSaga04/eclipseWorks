@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;org.Interface.Citisan.java&apos; to &apos;Citizen.java&apos;&#x0A;- Original project: &apos;JavaE&apos;&#x0A;- Original element: &apos;org.Interface.Citisan.java&apos;&#x0A;- Renamed element: &apos;org.Interface.Citizen.java&apos;" description="Rename compilation unit &apos;Citisan.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;org.Interface{Citisan.java" name="Citizen.java" references="false" stamp="1684922573389" version="1.0"/>
+</session>

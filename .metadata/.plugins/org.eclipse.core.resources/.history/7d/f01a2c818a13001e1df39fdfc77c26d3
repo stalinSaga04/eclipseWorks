@@ -1,0 +1,34 @@
+package org.learnings;
+
+import java.util.HashMap;
+import java.util.Map.Entry;
+
+public class MapDemo2 {
+	
+	public static void main(String[] args) {
+		String name  = "sivaramakrishnan";
+		int object = 0;
+		HashMap map = new HashMap();
+		int cnt=0;
+		for (int i = 0; i < name.length(); i++) {
+			if (map.containsKey(name.charAt(i))) {
+				 object = (Integer)map.get(name.charAt(i));
+				map.put(name.charAt(i), object+1);
+			}
+			else {
+				map.put(name.charAt(i), object);
+			}	
+		}
+		Entry e =  (Entry) map;
+		Object key = e.getKey();
+		int value = (int)e.getValue();
+		System.out.println(value);
+		
+//		if (map.keySet().size()) {
+//			
+//		}
+		System.out.println(map);
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package org.string;
+
+public class StringDemo2 {
+	public static void main(String[] args) {
+		String name = "amalraj vijayakumar";
+		for (int i = 0; i < name.length(); i++) {
+			char letter = name.charAt(i);
+			if (letter>='a'&& letter<='z') {
+				if (i%2==0) {
+					System.out.print((char)(letter-32));
+				}else if (i) {
+					
+				}
+				else {
+					System.out.print(letter);
+				}
+			}
+			//System.out.print(letter);
+		}
+		
+	}
+
+}

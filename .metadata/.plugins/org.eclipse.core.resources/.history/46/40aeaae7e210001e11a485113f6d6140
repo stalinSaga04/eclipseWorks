@@ -1,0 +1,20 @@
+package org.learnings;
+
+public class Mobiles {
+	public Mobiles(int price, int ram, float screensize, String brand) {
+		// TODO Auto-generated constructor stub
+		super();
+	    this.price = price;
+	    this.ram = ram;
+	    this.screensize = screensize;
+	    this.brand = brand;
+	}
+
+	int price, ram;
+	float screensize;
+	String brand;
+	public String toString()
+	  {
+	    return this.brand;
+	  }
+}

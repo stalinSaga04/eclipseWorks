@@ -1,0 +1,22 @@
+package org.string;
+
+public class StringDemo5 {
+	public static void main(String[] args) {
+		String s = "IAmGoingNow";
+		String[] ar = new String[s.length()];
+		for (int i = 0; i <s.length(); i++) {
+			char charAt = s.charAt(i);
+			if ((charAt>='A' && charAt<='Z')) {
+				System.out.print(" " + s.charAt(i));
+				.//continue;
+			}
+			else {
+				System.out.print( s.charAt(i));
+			}
+			//System.out.print(s.charAt(i));
+			
+		}
+		
+	}
+
+}

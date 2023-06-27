@@ -1,0 +1,46 @@
+package org.javaArray;
+
+import java.util.Scanner;
+
+
+
+public class BreakTheNumAndCompare {
+	public static void main(String[] args) {
+		BreakTheNumAndCompare br = new BreakTheNumAndCompare();
+		br.find_the_marks();
+		
+	}
+
+	private void find_the_marks() {
+		// TODO Auto-generated method stub
+		int i=0;
+		int rem1,rem2;
+		int[] arr = new int[5];
+		String[] sub = {"tamil","english","maths","science","social science"};
+		Scanner sc = new Scanner(System.in);
+		int temp[] = new int[5];
+		
+		
+		while (i<arr.length) {
+			System.out.println("enter the " +sub[i]+"  marks :" );
+			arr[i]=sc.nextInt();
+			
+			rem1=arr[i]%10;
+			rem2=arr[i]/10;
+			
+			if (rem1<rem2) {
+				temp[i]=arr[i];
+			}
+			while (i<temp.length) {
+				System.out.println( temp[i]);
+			}
+			i++;
+			
+		}
+		
+		
+	
+		
+	}
+
+}

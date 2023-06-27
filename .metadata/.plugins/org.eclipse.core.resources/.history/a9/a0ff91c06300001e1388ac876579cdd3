@@ -1,0 +1,19 @@
+package org.string;
+
+public class StringDemo4 {
+	public static void main(String[] args) {
+		String s = "sivasabari";
+		int count =1; 
+		
+		for (int j = 0; j < s.length(); j++) {
+			char ch = s.charAt(j);
+		for (int i = j+1; i < s.length(); i++) {
+			if (ch==s.charAt(i)) {
+				count++;
+			}
+		}
+		System.out.println(ch+"number of count is "+count);
+		}
+	}
+
+}

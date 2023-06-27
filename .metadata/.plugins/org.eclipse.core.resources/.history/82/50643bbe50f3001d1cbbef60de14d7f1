@@ -1,0 +1,46 @@
+package org.javaArray;
+
+import java.util.Scanner;
+
+public class CalculatorDemo {
+	public static void main(String[] args) {
+		System.out.println("enter any two numbers for calculate");
+		System.out.println("functions of addition,subtraction,multiplication and division");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter 1st INTEGER number: ");
+		int firstNum = sc.nextInt();
+		//System.out.println(firstNum);
+		System.out.println("enter 2nd INTEGER number: ");
+		int secondNum = sc.nextInt();
+		//System.out.println(secondNum);
+		String[] functns = {"addition","subtraction","multiplication","division"};
+		int i=0;
+		while (i<functns.length) {
+			System.out.println("for "+ functns[i]+"  press " + (i+1));
+			i++;
+		}
+		int choosedNumber=sc.nextInt();
+		if (choosedNumber>functns.length) {
+			System.out.println("choose the correct  option number: ");
+			choosedNumber=sc.nextInt();
+		}
+		while (choosedNumber>0) {
+			if (choosedNumber==1) {
+			System.out.println("the addition of "+firstNum+" and "+ secondNum+" is: "+(firstNum+secondNum));
+		}else if (choosedNumber==2) {
+			System.out.println("the subtraction of "+firstNum+" and "+ secondNum+" is: "+(firstNum-secondNum));
+		}else if (choosedNumber==3) {
+			System.out.println("the multiplication of "+firstNum+" and "+ secondNum+" is: "+(firstNum*secondNum));
+
+		}else if (choosedNumber==4) {
+			System.out.println("the division of "+firstNum+" and "+ secondNum+" is: "+(firstNum/secondNum));
+		}
+		else {
+			System.out.println("enter valid number ");
+			choosedNumber =sc.nextInt() ;
+		}}
+		}
+		
+	}
+
+

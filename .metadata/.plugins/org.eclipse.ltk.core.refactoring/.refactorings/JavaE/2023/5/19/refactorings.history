@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;org.javaLoop.LoopDemo.java&apos; to &apos;ArmstrongLoopDemo.java&apos;&#x0A;- Original project: &apos;JavaE&apos;&#x0A;- Original element: &apos;org.javaLoop.LoopDemo.java&apos;&#x0A;- Renamed element: &apos;org.javaLoop.ArmstrongLoopDemo.java&apos;" description="Rename compilation unit &apos;LoopDemo.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;org.javaLoop{LoopDemo.java" name="ArmstrongLoopDemo.java" references="false" stamp="1683911016122" version="1.0"/>
+</session>

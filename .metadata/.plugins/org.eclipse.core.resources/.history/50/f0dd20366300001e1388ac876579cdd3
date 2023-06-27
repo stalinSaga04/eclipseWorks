@@ -1,0 +1,16 @@
+package org.string;
+
+public class StringDemo4 {
+	public static void main(String[] args) {
+		String s = "sivasabari";
+		int count =1; 
+		char ch = s.charAt(0);
+		for (int i = 1; i < s.length(); i++) {
+			if (ch==s.charAt(i)) {
+				count++;
+			}
+			System.out.println(count);
+		}
+	}
+
+}
