@@ -16,11 +16,12 @@ public class Choco {
 		// TODO Auto-generated method stub
 		int choc = choc2,initial_choc=choc, tot = 0, rem =0,new_choc=0;
 		int ext_choc = 0;
+		 final int t =9;
 		
 			while (choc>=3) {
 				rem = choc % 3;    
 				new_choc = choc / 3;
-				
+			
 				ext_choc=+new_choc;
 				if (new_choc!=0) {
 					tot =tot+ ext_choc;
